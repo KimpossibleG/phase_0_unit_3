@@ -1,11 +1,12 @@
 # U3.W7: Designing Schemas
 
 
-#### I worked on this challenge [by myself, with: ]
+#### I worked on this challenge by myself.
 
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
+![Student Roster Schema](/imgs/0_student_roster_img.png)
 
 
 ## Release 1: One to Many Schema
