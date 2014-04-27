@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-![Student Roster Schema](/week_7/2_designing_schemas/imgs/0_student_roster_img.png)
+![Student Roster Schema](/week_7/imgs/0_student_roster_img.png)
 
 
 ## Release 1: One to Many Schema
