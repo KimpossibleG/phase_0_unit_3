@@ -34,3 +34,24 @@ This is a schema for a database of students where each student can have up to fo
 
 
 ## Release 5: Reflection
+What parts of your strategy worked? What problems did you face?
+- Went fairly smoothly.
+
+What questions did you have while coding? What resources did you find to help you answer them?
+- I had to look up how to link an image in a markdown file. (https://confluence.atlassian.com/display/STASH/Markdown+syntax+guide)
+
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+- It took me a few tries to wrap my head around the idea of having a table dedicated to the attributes of the field within a different table.
+
+Did you learn any new skills or tricks?
+- n/a
+
+How confident are you with each of the Learning Competencies?
+- Moderate
+
+Which parts of the challenge did you enjoy?
+- I like the organizational aspect of outlining the schemas
+
+Which parts of the challenge did you find tedious?
+- Was incredibly tedious when I'd notice that I'd made an error in a schema and have to go back and build the whole thing again.
+
