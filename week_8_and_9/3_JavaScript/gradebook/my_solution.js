@@ -7,7 +7,7 @@ variables match (i.e., 'Joseph' is the first element in students; his scores are
 
 Do not alter the students and scores code.
 
-I worked on this challenge [by myself, with:]
+I worked on this challenge by myself.
 
 */
 
@@ -26,7 +26,33 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+function average (my_array) {
+  i = 0;
+  sum = 0;
+  while (i < my_array.length)
+  {
+    var sum = sum + my_array[i];
+    i = i + 1;
+  }
+  return sum/my_array.length;
+};
 
+function addScore (name, score) {
+  scores[students.indexOf(name)].push(score);
+};
+
+function getAverage (name) {
+  return average(scores[students.indexOf(name)]);
+};
+
+var gradebook = {
+  Joseph: {testScores: scores[0]},
+  Susan: {testScores: scores[1]},
+  William: {testScores: scores[2]},
+  Elizabeth: {testScores: scores[3]},
+  addScore: addScore,
+  getAverage: getAverage
+};
 
 
 
@@ -44,12 +70,17 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Reflect
 
+/*
+Good heavens. This exercise reminds me of when I first started living in a French-speaking area, and I couldn't speak French. I could, however, speak German, although my mother-tongue is English. Whenever somebody asked me a question in French and I happened to understand it, my brain would process "That question is in Foreign Language. You must respond using Foreign Language..." and so I'd reply to their French question in German.
+
+The same thing is happening here. I'm being asked a question in JavaScript, and my brain just wants to speak Ruby. I was actually pleased with how quickly I was able to throw some JavaScript together, but I had to do quite a bit of web research to remind my brain to pull some JS out of its deep, dark corners.
+
+I have no idea if I included the functions in the Object correctly, and can't think of any way to refactor this. It was an uphill battle making sense of it at all. :-)
 
 
 
 
-
-
+*/
 
 
 // __________________________________________
